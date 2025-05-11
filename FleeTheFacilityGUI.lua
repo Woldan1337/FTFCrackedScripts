@@ -1,28 +1,28 @@
 local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/SiriusSoftwareLtd/Rayfield/main/source.lua'))()
 
 local Window = Rayfield:CreateWindow({
-   Name = "Flee that retarded facility pls",
-   LoadingTitle = "please dont ban me",
-   LoadingSubtitle = "sub to raisincains",
+   Name = "Flee The Facility",
+   LoadingTitle = "discord.gg/baristv44",
+   LoadingSubtitle = "Join Today!",
    ConfigurationSaving = {
       Enabled = false,
       FolderName = nil, -- Create a custom folder for your hub/game
-      FileName = "Big Hub"
+      FileName = "NeverLose-Paid"
    },
    Discord = {
-      Enabled = false,
-      Invite = "noinvitelink", -- The Discord invite code, do not include discord.gg/. E.g. discord.gg/ABCD would be ABCD.
+      Enabled = true,
+      Invite = "baristv44", -- The Discord invite code, do not include discord.gg/. E.g. discord.gg/ABCD would be ABCD.
       RememberJoins = true -- Set this to false to make them join the discord every time they load it up
    },
-   KeySystem = false, -- Set this to true to use our key system
+   KeySystem = true, -- Set this to true to use our key system
    KeySettings = {
-      Title = "Sirius Hub",
+      Title = "Neverlose Key System",
       Subtitle = "Key System",
-      Note = "Join the discord (discord.gg/sirius)",
-      FileName = "SiriusKey",
+      Note = "Key in Discord Server (discord.gg/neverlose)",
+      FileName = "Woldan-Key",
       SaveKey = true,
       GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
-      Key = "Hello"
+      Key = "NEVERLOSE-9F3X7K2B1LQW5VZ6YJRM4C8TN0DUAHEG"
    }
 })
 
@@ -111,7 +111,7 @@ if state == true then
 					LeftLeg.Color3 = Color3.new(1,1,1)
 				end
 				end)
-        --[[
+        
         --BillboardGui
         local BillboardGui = Instance.new("BillboardGui",Folder)
         BillboardGui.AlwaysOnTop = true
@@ -131,7 +131,7 @@ if state == true then
         NameTag.Visible = true
         NameTag.TextSize = 20
         NameTag.Text = "Name: " .. v.Name
-        ]]
+        
 			end)
 		end
 	end
@@ -594,12 +594,12 @@ function StopScript()
 		Global.Running = false
 		ScriptStart = false
 		if Restart == true then
-		loadstring(game:HttpGet('https://raw.githubusercontent.com/Error-Cezar/Roblox-Scripts/main/FE-Invisible.lua'))()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/Woldan1337/FTFCrackedScripts/refs/heads/main/Fe-Invis.lua'))()
 		end
 		
 			LP.CharacterAdded:Connect(function()
 				if Reset == false then return end
-			loadstring(game:HttpGet('https://raw.githubusercontent.com/Error-Cezar/Roblox-Scripts/main/FE-Invisible.lua'))()
+			loadstring(game:HttpGet('https://raw.githubusercontent.com/Woldan1337/FTFCrackedScripts/refs/heads/main/Fe-Invis.lua'))()
 		end)
 		
 	end
@@ -740,7 +740,7 @@ local character = game.Players.LocalPlayer.Character
 end,
 })
 
-local Label = Home:CreateLabel("This was made by raisincains")
-local Label = Home:CreateLabel("Github.com/raisincains/scripts")
-local Label = Home:CreateLabel("https://www.youtube.com/@raisincains337")
-local Label = Home:CreateLabel("notraisincains#5706")
+local Label = Home:CreateLabel("discord.gg/baristv44")
+local Label = Home:CreateLabel("Yılanın Diline Düşersen Zehrine Katlanırsın,")
+local Label = Home:CreateLabel("Beni Kızdırma Altından Kalkamazsın.")
+local Label = Home:CreateLabel("Made By Woldan")
